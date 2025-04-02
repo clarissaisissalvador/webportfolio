@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Developer Portfolio</title>
+
+	<link rel="icon" type="image/x-icon" href="./images/logo.png">
+
+	<!-- Boostrap Link -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+	<!-- FontAwesome Link -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+	<!-- CSS Link -->
+	<link rel="stylesheet" type="text/css" href="index.css">
+
+	<!-- Google Font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+	<!-- Start of Navbar -->
+	<div id="bg-heading">
+		<div id="navbar">
+			<nav class="navbar navbar-expand-lg navbar-light">
+				<div class="container">
+					<img class="img-fluid" height="50" width="50" src="./images/logo.png" alt="Logo">
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+					<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+						<div class="navbar-nav ms-auto d-flex gap-3">
+							<a class="nav-link active" aria-current="page" href="#landing">Home</a>
+							<a class="nav-link" href="#projects">My Projects</a>
+							<a class="nav-link" href="#tools">Tools</a>
+							<a class="nav-link" href="#contact">Contact</a>
+						</div>
+					</div>
+
+				</div>
+			</nav>
+		</div>
+		<!-- End of Navbar -->
+
+
+		<!-- Start of Main Content -->
+
+		<!-- Start of Landing Section -->
+		<div class="container-fluid" id="landing">
+			<div class="d-flex row">
+				<div class="mx-2 text-start mt-5 py-5" id="landing-title">
+					<h1 id="title1">WEB DEVELOPER</h1>
+					<h1 id="title2">Portfolio</h1>
+				</div>
+			</div>
+			<div class="d-flex justify-content-end mb-5 me-5">
+				<a href="#profile" id="button-landing" class="btn primary-button me-5 text-white p-3 pe-5 ps-5 rounded-pill">ABOUT ME ➤</a>
+			</div>
+		</div>
+	</div>
+	<!-- End of Landing Section -->
+
+
+	<!-- Start of Profile Section -->
+	<div class="container" id="profile"> 
+		<div class="row align-items-center">
+			<div class="col-12 col-md-6 py-5 pt-5">
+				<img class="img-fluid ms-5" id="profile-image" src="./images/profile-image.png">
+			</div>
+			<div class="col-12 col-md-6" id="profile-text">
+				<h4>Hi, my name is</h4>
+				<h1>Clarissa Salvador</h1>
+				<h4>Full-Stack Web Developer</h4>
+				<p>I am an aspiring Web Developer driven by curiosity, 
+				excited to shape the future of the web. Constantly learning, coding, and creating to bring ideas to life!</p>
+				<div class="profile-button">
+					<div class="d-flex justify-content-center justify-content-md-end mb-5 me-md-5">
+						<a href="#projects" id="profile-button" class="btn primary-button text-white p-1 pe-3 ps-3 rounded-pill">VIEW MY PROJECTS ➤</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End of Profile Section -->
+
+
+	<!-- Start of Projects Section -->
+	<div class="container-fluid" id="projects">
+		<h1 class="text-center" id="project-title">My Projects</h1>
+		<div class="row d-flex justify-content-center gap-3 pb-5 py-5">
+			<!-- Card 1 -->
+			<div class="card col-sm-12 col-md-6 col-lg-4">
+				<img class="card-img-top" src="./images/p1.png" alt="portfolio-1">
+				<div class="card-body">
+					<h5 class="card-title">E-commerce API Documentation</h5>
+					<p class="card-text">Dynamic E-Commerce Workflow Management. The system features dynamic routes for order processing, real-time inventory updates, and secure user authentication, it also supports seamless automated order reporting and comprehensive product management. Documented Backend API published publicly using Postman.</p>
+					<a href="https://github.com/clarissaisissalvador" target="_blank" class="project-button btn primary-button mx-auto p-1 pe-3 ps-3 rounded-pill">View More ↗</a>
+				</div>
+			</div>
+			<!-- Card 2 -->
+			<div class="card col-sm-12 col-md-6 col-lg-4">
+				<img class="card-img-top" src="images/p2.png" alt="portfolio-2">
+				<div class="card-body">
+					<h5 class="card-title">Course Booking API Documentation</h5>
+					<p class="card-text">RESTful API for managing course enrollments, featuring user registration, authentication, and retrieval of user details. Supports course creation, updates, archiving, activation, and student enrollment. Publicly documented using Postman.</p>
+					<a href="https://github.com/clarissaisissalvador" target="_blank" class="project-button btn primary-button mx-auto p-1 pe-3 ps-3 rounded-pill">View More ↗</a>
+				</div>
+			</div>
+			<!-- Card 3 -->
+			<div class="card col-sm-12 col-md-6 col-lg-4">
+				<img class="card-img-top" src="images/p3.png" alt="portfolio-3">
+				<div class="card-body">
+					<h5 class="card-title">Course Booking App</h5>
+					<p class="card-text">A MERN-stack course enrollment system featuring user registration, authentication, and profile management. Authenticated users can create, update, archive, and activate courses. The platform also allows users to browse available courses and enroll seamlessly.</p>
+					<a href="https://github.com/clarissaisissalvador" target="_blank" class="project-button btn primary-button mx-auto p-1 pe-3 ps-3 rounded-pill">View More ↗</a>
+				</div>
+			</div>
+
+			<!-- Card 4 -->
+			<div class="card col-sm-12 col-md-6 col-lg-4">
+				<img class="card-img-top" src="images/p4.png" alt="portfolio-4">
+				<div class="card-body">
+					<h5 class="card-title">E-commerce App</h5>
+					<p class="card-text">MERN E-Commerce Platform. The
+					platform features dynamic product catalog with filtering and sorting. real-time search, seamless cart updates, secure checkout, and a comprehensive admin dashboard with real-time analytics and user management capabilities.</p>
+					<a href="https://github.com/clarissaisissalvador" target="_blank" class="project-button btn primary-button mx-auto p-1 pe-3 ps-3 rounded-pill">View More ↗</a>
+				</div>
+			</div>
+
+			<!-- Card 5 -->
+			<div class="card col-sm-12 col-md-6 col-lg-4">
+				<img class="card-img-top" src="images/p5.png" alt="portfolio-5">
+				<div class="card-body">
+					<h5 class="card-title">Airline Booking System Mockup</h5>
+					<p class="card-text">Side Project Conceptual design showcasing an intuitive UI for fight search, seat selection, and booking confirmation, focusing on usar experience and workflow efficiency.</p>
+					<a href="https://github.com/clarissaisissalvador" target="_blank" class="project-button btn primary-button mx-auto p-1 pe-3 ps-3 rounded-pill">View More ↗</a>
+				</div>
+			</div>
+
+			<!-- Card 6 -->
+			<div class="card col-sm-12 col-md-6 col-lg-4">
+				<img class="card-img-top" src="images/p6.png" alt="portfolio-6">
+				<div class="card-body">
+					<h5 class="card-title">Airline Booking System Prototype</h5>
+					<p class="card-text">Side Project: Interactive prototype simulating end-to-end airline booking functionalities, including fight search, raservation, paymant processing, and real-time ticket management.</p>
+					<a href="https://github.com/clarissaisissalvador" target="_blank" class="project-button btn primary-button mx-auto p-1 pe-3 ps-3 rounded-pill">View More ↗</a>
+				</div>
+			</div>
+
+			<!-- Card 7 -->
+			<div class="card col-sm-12 col-md-6 col-lg-4">
+				<img class="card-img-top" src="images/p7.png" alt="portfolio-7">
+				<div class="card-body">
+					<h5 class="card-title">Short Courses Capstone</h5>
+					<p class="card-text">Placeholder for your Short courses capstone project. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis minima dolore, illum, odio, libero vitae sapiente exercitationem non recusandae odit vel mollitia placeat nostrum architecto. Quis ipsam cum ratione minima.</p>
+					<a href="https://github.com/clarissaisissalvador" target="_blank" class="project-button btn primary-but p-1 pe-3 ps-3 rounded-pill">View More ↗</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End of Projects Section -->
+
+
+	<!-- Start of Tools Section -->
+	<div class="container-fluid" id="tools">
+		<h1 class="text-center" id="tools-title">Tools</h1>
+		<!-- Front-End -->
+		<div class="row d-flex text-center">
+			<div class="col-12 col-md-6">
+				<h2 class="my-5 title-tool">Front-End</h2>
+				<div class="d-flex flex-wrap gap-4 justify-content-center">
+					<img class="img-fluid tool-img" src="./images/frontend-t1.png" height="100" width="100">
+					<img class="img-fluid tool-img" src="./images/frontend-t2.png" height="100" width="100">
+					<img class="img-fluid tool-img" src="./images/frontend-t4.png" height="100" width="100">
+					<img class="img-fluid tool-img" src="./images/frontend-t3.png" height="100" width="100">
+				</div>
+			</div>
+
+			<!-- MERN Tools -->
+			<div class="col-12 col-md-6">
+				<h2 class="my-5 title-tool">MERN</h2>
+				<div class="d-flex flex-wrap gap-4 justify-content-center">
+					<img class="img-fluid tool-img" src="./images/mern-t1.png" height="100" width="100">
+					<img class="img-fluid tool-img" src="./images/mern-t2.png" height="100" width="100">
+					<img class="img-fluid tool-img" src="./images/mern-t3.png" height="100" width="100">
+					<img class="img-fluid tool-img" src="./images/mern-t4.png" height="100" width="100">
+				</div>
+			</div>
+		</div>
+
+		<!-- Other Tools -->
+		<div class="row mt-5 text-center">
+			<div class="col-12">
+				<h2 class="my-5 title-tool">Other Tools</h2>
+				<div class="d-flex flex-wrap gap-4 justify-content-center">
+					<img class="img-fluid tool-img" src="./images/otherTools-t1.png" height="100" width="100">
+					<img class="img-fluid tool-img" src="./images/otherTools-t2.png" height="100" width="100">
+					<img class="img-fluid tool-img" src="./images/otherTools-t3.png" height="100" width="100">
+					<img class="img-fluid tool-img" src="./images/otherTools-t4.png" height="100" width="100">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End of Tools Section -->
+
+
+	<!-- Start of Contact Section -->
+	<div id="contact" class="container-fluid py-5 mt-5">
+		<div class="row d-flex">
+
+			<!-- Start of Profile Card -->
+			<div class="col-12 col-md-6 d-none d-md-flex justify-content-center ps-5">
+				<div class="profile-card text-center">
+					<!-- Profile Image -->
+					<div class="profile-img">
+						<img src="./images/contact-image.png" alt="Profile Picture" class="img-fluid"/>
+					</div>
+					<!-- Name and Title -->
+					<h4 class="title-name mt-3">Clarissa Salvador</h4>
+					<p class="badge title-badge">Full-Stack Web Developer</p>
+
+					<!-- Social Icons -->
+					<div class="d-flex justify-content-center gap-2" id="social">
+						<a href="https://indeed.com" target="_blank">
+							<img class="img-fluid" src="https://indeed.design/static/97aaab44096aedcc0f7dfa40a27cbdf0/logo.png" height="20" width="20">
+						</a>
+						<a href="https://github.com/clarissaisissalvador.com" target="_blank">
+							<img class="img-fluid" src="https://images.icon-icons.com/3685/PNG/512/github_logo_icon_229278.png" height="20" width="20">
+						</a>
+						<a href="https://www.linkedin.com/in/clarissa-salvador-938a41207" target="_blank">
+							<img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/LinkedIn_icon_circle.svg/1200px-LinkedIn_icon_circle.svg.png" height="20" width="20">
+						</a>
+						<a href="https://www.kalibrr.com" target="_blank">
+							<img class="img-fluid rounded-circle" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCrQJka4g4UG2wJxflq3ywo2ZjkZFSiRpd_Q&s" height="20" width="20">
+						</a>
+					</div>
+					<!-- Contact Details -->
+					<div class="contact-info p-3">
+						<p><i class="fa-solid fa-phone mx-2"></i> +63 999 458 2880</p>
+						<p><i class="fa-solid fa-envelope"></i> clarissaisis.salvador@gmail.com</p>
+						<p><i class="fa-solid fa-location-dot"></i> Batangas, Philippines</p>
+						<p><i class="fa-solid fa-calendar-days"></i> 28 May 2002</p>
+					</div>
+				</div>
+			</div>
+			<!-- End of Profile Card -->
+
+			<!-- Start of Contact Form -->
+			<div class="col-12 col-md-6 p-5" id="contact-form">
+				<form class="p-3" id="form-col">
+					<h2 class="mb-4 text-center" id="contact-title">Contact Me!</h2>
+					<div class="mb-3">
+						<label for="text" class="form-label">Name</label>
+						<input type="text" class="form-control" id="name" placeholder="Input Text Here" required>
+					</div>
+					<div class="mb-3">
+						<label for="email" class="form-label">Email Address</label>
+						<input type="email" class="form-control" id="email" placeholder="user.name@email.com" required>
+					</div>
+					<div class="form-group mb-3">
+						<label for="message" class="form-label">Message</label>
+						<textarea class="form-control" id="message" placeholder="Leave a Message" rows="7"></textarea>
+					</div>
+					<div class="d-flex justify-content-center">
+						<button id="contact-button" class="mt-3 text-white p-2 px-5 rounded-pill border-0" data-bs-toggle="modal" data-bs-target="#modalDiv" type="submit">Send</button>
+					</div>
+				</form>
+			</div>
+			<!-- End of Contact Form -->
+
+		</div>
+	</div>
+
+	<!-- Start of Modal -->
+	<div class="modal" tabindex="-1" id="modalDiv">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">Thank you for leaving a message.</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<p>Hi there! I hope you're having a fantastic day. I just wanted to let you know that I've received your message, and I will be getting back to you shortly.</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End of Modal -->
+
+	<!-- End of Contact Page -->
+
+
+	<!-- Start of Footer Section-->
+	<footer class="d-flex row pt-3 text-center">
+		<p>2025 | &copy; Copyright. All rights reserved.</p>
+	</footer>
+	<!-- End of Footer Section-->	
+
+
+	<!-- End of Main Content -->
+
+	<!-- Bootstrap Script -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
