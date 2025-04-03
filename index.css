@@ -178,9 +178,7 @@ nav>.container>div>div>a:hover{
     background-repeat: no-repeat;
     background-attachment: fixed; 
     width: 100%;
-    min-height: 100auto;
-    display: flex;
-    flex-direction: column;
+    min-height: auto;
     padding-bottom: 4rem;
 }
 
@@ -278,8 +276,6 @@ nav>.container>div>div>a:hover{
 	background-attachment: fixed;
 	width: 100%;
 	min-height: auto;
-	display: flex;
-	flex-direction: column;
 	padding-bottom: 4rem;
 }
 
