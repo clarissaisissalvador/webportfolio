@@ -30,7 +30,6 @@ body{
 
 #navbar {
 	position: fixed;
-	margin-top: 1rem;
 	width: 100%;
 	background: rgba(255, 255, 255, 0.15); 
 	backdrop-filter: blur(10px);
@@ -172,7 +171,7 @@ nav>.container>div>div>a:hover{
 
 /* Project Page Section */
 
-#projects{
+#bg-projects{
 	background-image: url(./images/bg-page.png);
     background-size: cover;
     background-position: center;
@@ -193,7 +192,7 @@ nav>.container>div>div>a:hover{
 }
 
 .card { 
-	width: 18rem;
+	width: 22rem;
 	border: none !important;
 	background: rgba(255, 255, 255, 0.15); 
 	backdrop-filter: blur(10px);
@@ -203,7 +202,6 @@ nav>.container>div>div>a:hover{
 	box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25); 
 	position: relative;
 	overflow: hidden;
-	padding: 20px;
 }
 
 .card:hover {
